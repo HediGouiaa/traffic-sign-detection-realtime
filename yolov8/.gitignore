@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+pip-wheel-metadata/
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+test_venv/
+env.bak/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Model weights and checkpoints (YOLO, PyTorch, etc.)
+*.pt
+*.pth
+weights/
+checkpoints/
+
+# Training runs / outputs
+runs/
+logs/
+output/
+
+# Large dataset files — keep config/docs but ignore images/labels
+datasets/**/images/
+datasets/**/labels/
+datasets/**/train/
+datasets/**/valid/
+datasets/**/test/
+# Allow dataset metadata and config files
+!datasets/**/data.yaml
+!datasets/**/README*
+
+# Other
+*.egg
+*.whl
+.python-version
+
+# Optional helper: if files already tracked that should be ignored, run:
+# git rm -r --cached .
+# git add .
+# git commit -m "Apply .gitignore"
